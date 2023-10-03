@@ -1,0 +1,109 @@
+:root{
+     --heading-font: 'Abril Fatface', cursive;
+     --primary-font: 'Ubuntu', sans-serif;
+     --secondary-font: 'Open Sans', sans-serif;
+     --primary-color:#0f2f44;
+    }
+/*=======common section start =====*/
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*====== common section end=====*/
+/*=======top_bar section start =====*/
+#top_bar{
+    background-color:var(--primary-color);
+    color: #fefefe;
+    padding: 21px;
+    font-family: var(--primary-font);
+}
+/*====== top_bar section end=====*/
+/*=======nav section start =====*/
+#primary_nav #primary_menu ul li a{
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 43px 19px;
+    display: inline-block;
+    color: #222222;
+}
+#primary_nav #primary_menu ul li a:hover{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+#primary_nav #primary_menu ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #dedede;
+    margin: 0 10px;
+}
+#primary_nav #primary_menu ul li button:hover,
+#primary_nav #primary_menu ul li a:hover{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+/*====== nav section end=====*/
+/*=======success section start =====*/
+#success{
+    background-image: url(./img/success.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: #ffffff;
+}
+#success .banner_box{
+    padding: 80px 10px;
+}
+#success .banner_box h4{
+    font-family: var(--primary-font);
+    font-size: 50px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#success .banner_box h1{
+    font-family: var(--heading-font);
+    font-size: 80px; 
+    text-transform: uppercase;
+    color: #0f2f44;
+}
+#success .banner_box h6{
+  font-family: var(--primary-font);
+  color: #8484bf;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+#success .banner_box p{
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    color: #444444;
+}
+#success .banner_box a{
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    display: inline-block;
+    background-color: #8484bf;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#success .banner_box button{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    margin: 0 10px;
+    color: #8484bf;
+}
+/*====== success section end=====*/
